@@ -15,7 +15,6 @@ config = {
     'packages': ['addrparse'],
     'include_package_data': True,
     'scripts': ['bin/cli.py'],
-    'entry_points': {'console_scripts':  ['addrparse=addrparse.bin.cli:main']}
     'zip_safe': False,
     'name': 'addrparse',
     'license': 'MIT'

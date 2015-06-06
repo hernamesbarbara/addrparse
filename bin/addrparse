@@ -47,7 +47,7 @@ def main(arguments):
     target, outfile = handle_arguments(arguments)
     email_dict = addr.process_email_address(arguments.get("EMAIL"))
     if target != "--all":
-        res = json.dumps(email_dict[target])
+        res = email_dict[target]
     else:
         res = json.dumps(email_dict)
     print >> outfile, res

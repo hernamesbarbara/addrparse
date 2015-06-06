@@ -14,7 +14,7 @@ config = {
     'install_requires': ['nose', 'docopt', 'flanker'],
     'packages': ['addrparse'],
     'include_package_data': True,
-    'scripts': ['bin/cli.py'],
+    'scripts': ['bin/addrparse'],
     'zip_safe': False,
     'name': 'addrparse',
     'license': 'MIT'
